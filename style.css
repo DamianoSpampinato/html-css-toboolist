@@ -8,7 +8,7 @@ body{
     font-family: 'Roboto', sans-serif;
     background-color: #f6f8f9;
 }
-/*---------- 
+/*----------
     HEADER
 ------------*/
 header{
@@ -20,7 +20,7 @@ header img {
     margin: 10px;
     margin-left: 20px;
     margin-right: 5px;
-    
+
 }
 
 header div{
@@ -30,6 +30,48 @@ header div{
     font-weight: bold;
 }
 
-/*---------- 
+/*----------
     /HEADER
 ------------*/
+
+
+/* -------
+ CONTAINER
+------- */
+.container{
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 40px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding-top: 15px;
+    padding-left: 40px;
+}
+
+
+
+/* ---------
+INPUT SECTION
+-------- */
+.input-section{
+    padding-bottom: 10px;
+    border-bottom: #f6f8f9 solid 2px;
+}
+
+.button{
+    border-radius: 5px;
+    padding: 10px 10px;
+    background-color: #ffffff;
+    color: #cdd3d7;
+    border: solid #cdd3d7;
+}
+
+.unlocked{
+    color: #ffffff;
+    background-color: #14aaf5;
+    border: solid #14aaf5;
+}
+
+/* -------
+ /CONTAINER
+------- */
