@@ -115,11 +115,11 @@ I/NPUT SECTION
     border-radius: 100%;
     border:  solid 2px;
     background-color: aquamarine;
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     text-align: center;
     display: inline-block;
-    line-height: 20px;
+    line-height: 30px;
     vertical-align: middle;
     font-size: 10px;
 }
