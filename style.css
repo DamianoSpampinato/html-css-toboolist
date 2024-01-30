@@ -49,8 +49,18 @@ header div{
     padding-left: 40px;
     border-bottom: #f6f8f9 solid 5px;
 }
+.container-task{
+    max-width: 1000px;
+    margin: auto;
+    background-color: #ffffff;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
 
-
+.section-text{
+    margin: 10px;
+    vertical-align: middle;
+}
 
 /* ---------
 INPUT SECTION
@@ -73,9 +83,38 @@ INPUT SECTION
     border: solid #14aaf5;
 }
 
-
+/* ---------
+I/NPUT SECTION
+-------- */
 
 /* -------
  /CONTAINER
 ------- */
 
+/* -------
+    UTILITY
+-------- */
+
+.circle{
+    border-radius: 100%;
+    border:  solid 2px;
+    background-color: aquamarine;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    display: inline-block;
+    line-height: 25px;
+    vertical-align: middle;
+}
+
+.tag{
+    border-radius: 15px;
+    padding: 5px 10px;
+    font-size: 10px;
+    vertical-align: middle;
+    color: #ffffff;
+}
+
+.tag-b{
+    background-color: #09a9ed;
+}
