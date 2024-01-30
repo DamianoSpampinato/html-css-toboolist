@@ -38,14 +38,16 @@ header div{
 /* -------
  CONTAINER
 ------- */
-.container{
+.container-task{
     max-width: 1000px;
     margin: auto;
     margin-top: 40px;
     background-color: #ffffff;
-    border-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
     padding-top: 15px;
     padding-left: 40px;
+    border-bottom: #f6f8f9 solid 5px;
 }
 
 
@@ -55,7 +57,6 @@ INPUT SECTION
 -------- */
 .input-section{
     padding-bottom: 10px;
-    border-bottom: #f6f8f9 solid 2px;
 }
 
 .button{
@@ -72,6 +73,9 @@ INPUT SECTION
     border: solid #14aaf5;
 }
 
+
+
 /* -------
  /CONTAINER
 ------- */
+
