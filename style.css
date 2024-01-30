@@ -57,6 +57,10 @@ header div{
     border-bottom-left-radius: 20px;
 }
 
+.task-list{
+    margin-bottom: 30px;
+}
+
 .section-text{
     margin: 10px;
     vertical-align: middle;
@@ -94,17 +98,26 @@ I/NPUT SECTION
 /* -------
     UTILITY
 -------- */
+.row{
+    margin-bottom: 20px;
+}
+
 
 .circle{
     border-radius: 100%;
     border:  solid 2px;
     background-color: aquamarine;
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     text-align: center;
     display: inline-block;
-    line-height: 25px;
+    line-height: 20px;
     vertical-align: middle;
+    font-size: 10px;
+}
+.fail{
+    color: red;
+    background-color: #ffffff;
 }
 
 .tag{
@@ -113,8 +126,23 @@ I/NPUT SECTION
     font-size: 10px;
     vertical-align: middle;
     color: #ffffff;
+    background-color: red;
 }
 
 .tag-b{
     background-color: #09a9ed;
+}
+
+.tag-v{
+    background-color: #ab5de6;
+}
+
+.tag-g{
+    background-color: #2cc6ab;
+}
+
+
+
+.tag-o{
+    background-color: #ff9b00;
 }
